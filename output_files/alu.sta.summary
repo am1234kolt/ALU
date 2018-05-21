@@ -1,0 +1,37 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'Op_code[0]'
+Slack : -2.673
+TNS   : -13.364
+
+Type  : Setup 'Op_code[3]'
+Slack : -2.347
+TNS   : -10.756
+
+Type  : Hold 'Op_code[3]'
+Slack : -0.370
+TNS   : -1.010
+
+Type  : Hold 'Op_code[0]'
+Slack : -0.044
+TNS   : -0.051
+
+Type  : Recovery 'Op_code[3]'
+Slack : -2.138
+TNS   : -5.786
+
+Type  : Removal 'Op_code[3]'
+Slack : -0.306
+TNS   : -0.955
+
+Type  : Minimum Pulse Width 'Op_code[0]'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'Op_code[3]'
+Slack : -2.289
+TNS   : -2.289
+
+------------------------------------------------------------

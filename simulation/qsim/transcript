@@ -1,0 +1,27 @@
+# do alu.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_vlg_sample_tst
+# -- Compiling module alu_vlg_check_tst
+# -- Compiling module alu_vlg_vec_tst
+# 
+# Top level modules:
+# 	alu_vlg_vec_tst
+# vsim -L maxii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver -c -voptargs=\"+acc\" -t 1ps -novopt work.alu_vlg_vec_tst 
+# Loading work.alu_vlg_vec_tst
+# Loading work.alu
+# Loading maxii_ver.maxii_io
+# Loading maxii_ver.maxii_lcell
+# Loading maxii_ver.maxii_asynch_lcell
+# Loading maxii_ver.maxii_lcell_register
+# Loading work.alu_vlg_sample_tst
+# Loading work.alu_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : alu.vwf.vt(430)
+#    Time: 1 us  Iteration: 0  Instance: /alu_vlg_vec_tst/tb_out
